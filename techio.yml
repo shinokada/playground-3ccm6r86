@@ -1,4 +1,8 @@
-title: Simple Rust Template
+title: A Comprehensive Tutorial to Rust Operators for Beginners
 plan:
-- title: Rust Snippet
-  statement: statement.md
+- title: Introduction
+  statement: introduction.md
+- title: Arithmetic Operators
+  statement: arithmetic.md
+- title: Comparison Operators
+  statement: comparison.md
