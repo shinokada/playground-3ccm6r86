@@ -10,7 +10,7 @@
 
 Python and Rust share the same symbols as you see in the above table. Rust call it "Remainder" for the "Modulus".
 
-`` runnable rust
+```rust runnable
 fn main() {
     let a = 20;
     let b = a + 1;
@@ -20,42 +20,42 @@ fn main() {
     let f = a % 3;
     println!("a: {}, b: {0}+1={}, c: {0}-2={}, d: {0}*3={}, e: {0}/4={}, f: {0}%3={}", a, b, c, d, e, f);
 }
-``
+```
 
 In Rust you can't use different data types in an operation. For example, if you try to subtract an [unsigned integer](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f#f4ce) from a [singed integer](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f#3e54), it will fail:
 
-`` runnable rust
+```rust runnable
 // This will fail.
 fn main() {
     let a = 8u8;
     let b = 2i32;
     println!("{}", a - b);
 }
-``
+```
 
 You can use [`as` keyword](https://doc.rust-lang.org/std/keyword.as.html) to cast between primitive types.
 
-`` runnable rust
+```rust runnable
 fn main() {
     let a = 8u8;
     let b = 2i32;
     println!("{}", a as i32 - b);
 }
-``
+```
 
 ## Exponent
 
 Python uses `**` symbol for exponents:
 
-`` runnable python
+```python runnable
 print('2^3 is ', 2**3)
 print('3^3 is ', 3**3)
 print('3^3.2 is ', 3**3.2)
-``
+```
 
 Rust uses `pow`, `powi`, and `powf`: 
 
-`` runnable rust
+```rust runnable
 fn main() {
     println!("2 ^ 3 in Rust: 2u8.pow(3) = {}", 2u8.pow(3));
     println!("2 ^ 3 in Rust: 2i32.pow(3) is {}", 2i32.pow(3));
@@ -68,7 +68,7 @@ fn main() {
     println!("b = {}, b ^ 3 in Rust: f64::powi(b, 3) = {}", b, f64::powi(b, 3));
     println!("b = {}, b ^ PI in Rust: std::f64::consts::PI) = {}", b, f64::powf(b, std::f64::consts::PI) );    
 }
-``
+```
 
 
 
