@@ -6,3 +6,23 @@ plan:
   statement: arithmetic.md
 - title: Comparison Operators
   statement: comparison.md
+- title: Logical Operators
+  statement: logical.md
+- title: Bitwise Operators
+  statement: bitwise.md
+- title: Compound Assignment Operators
+  statement: compound.md
+- title: Operator Overloading
+  statement: overloading.md
+- title: XOR and Bitwise Operators Truth Table
+  statement: xor.md
+- title: Problem 1: Single Number
+  statement: problem1.md
+- title: Method and Associated Functions
+  statement: method.md
+- title: Solution Using an Associated Function
+  statement: associated.md
+- title: Problem 2: Number of Steps to Reduce a Number to Zero
+  statement: problem2.md
+- title: Conclusion
+  statement: conclusion.md
