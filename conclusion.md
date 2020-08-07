@@ -2,7 +2,9 @@
 
 # Conclusion
 
-We learned arithmetic, comparison, logical, bitwise, and compound assignment operators in Rust. We also learned operator overloading, the difference between associated function and methods, how to use operators in Rust by converting simple Python codes to Rust.
+We learned arithmetic, comparison, logical, bitwise, and compound assignment operators in Rust. 
+
+We also learned operator overloading, the difference between associated function and methods, how to use operators in Rust by converting simple Python codes to Rust.
 
 I hope you learned something and are ready for the next step. Please stay tuned for the next post.
 

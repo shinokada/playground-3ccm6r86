@@ -38,7 +38,7 @@ fn main() {
 }
 ```
 
-Rust uses the `**as**`[ keyword](https://doc.rust-lang.org/std/keyword.as.html) to cast between **primitive types**. Please read more about the cast in Rust [here](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f).
+Rust uses the **as** [keyword](https://doc.rust-lang.org/std/keyword.as.html) to cast between **primitive types**. Please read more about the cast in Rust [here](https://towardsdatascience.com/unsinged-signed-integers-and-casting-in-rust-9a847bfc398f).
 
 ```rust runnable
 fn main() {
@@ -58,7 +58,7 @@ print('3^3 is ', 3**3)
 print('3^3.2 is ', 3**3.2)
 ```
 
-Rust uses `**pow**`, `**powi**`, and `**powf**` depends on the type:
+Rust uses **pow**, **powi**, and **powf** depends on the type:
 
 ```rust runnable
 fn main() {
@@ -85,9 +85,9 @@ pub fn pow(self, exp: u32) -> i32
 
 The above definition tells you that using the `pow` method raises self to the power of `exp` (which is `u32`) and returns `i32` (a signed integer).
 
-The **floating-point types**, `f32` and `f64` have `**powi**` and `**powf**` methods.
+The **floating-point types**, `f32` and `f64` have **powi** and **powf** methods.
 
-`**powi**` raises a number to an integer power and `**powf**` raises a number to a floating-point power.
+**powi** raises a number to an integer power and **powf** raises a number to a floating-point power.
 
 ```rust
 pub fn powi(self, n: i32) -> f32
