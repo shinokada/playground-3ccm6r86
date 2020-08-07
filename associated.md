@@ -40,4 +40,4 @@ Line 6–10: We create an associated function, `new` as we have done it before. 
 
 When the parameter names and the struct field names are exactly the same, we can use the **field init shorthand** syntax as `nums` instead of `nums: nums`.
 
-In the main function, we call an associated function, `new` and pass `nums` as an argument. We use *method syntax* to call the `single_number` method on the `ans3` instance.
+In the main function, we call an associated function, `new` and pass `nums` as an argument. We use **method syntax** to call the `single_number` method on the `ans3` instance.
