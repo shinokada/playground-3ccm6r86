@@ -1,9 +1,5 @@
 > This article was first published at [Medium](https://towardsdatascience.com/a-comprehensive-tutorial-to-rust-operators-for-beginners-11554b2c64d4)
 
-Follow me:
-- [@shinokada](https://twitter.com/shinokada)
-- [Medium](https://medium.com/@shinichiokada)
-
 # XOR and Bitwise Operators Truth Table
 
 As we saw previously, Python and Rust use the same symbols for bitwise symbols `AND`, `OR` , and `XOR`.
@@ -61,3 +57,14 @@ print(1 ^ 1 ^ 1)
 print(bin(1 ^ 1 ^ 1))
 ```
 
+---
+
+Follow me:
+- <a href="https://twitter.com/shinokada">
+  <img align="left" alt="Shinichi Okada | Twitter" width="21px" src="https://raw.githubusercontent.com/shinokada/shinokada/master/assets/twitter.png"/>
+  Twitter
+</a>
+- <a href="https://medium.com/@shinichiokada">
+  <img align="left" alt="Shinichi Okada | Medium" width="21px" src="https://raw.githubusercontent.com/shinokada/shinokada/master/assets/medium.png"/>
+ Medium
+</a>
