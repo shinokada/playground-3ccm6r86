@@ -1,5 +1,9 @@
 > This article was first published at [Medium](https://towardsdatascience.com/a-comprehensive-tutorial-to-rust-operators-for-beginners-11554b2c64d4)
 
+Follow me:
+- [@shinokada](https://twitter.com/shinokada)
+- [Medium](https://medium.com/@shinichiokada)
+
 # Method and Associated Functions
 
 > Methods are defined within the context of a struct and their first parameter is always `self`, which represents the instance of the struct the method is being called on. - The Rust Programming Language

@@ -1,5 +1,9 @@
 > This article was first published at [Medium](https://towardsdatascience.com/a-comprehensive-tutorial-to-rust-operators-for-beginners-11554b2c64d4)
 
+Follow me:
+- [@shinokada](https://twitter.com/shinokada)
+- [Medium](https://medium.com/@shinichiokada)
+
 # Conclusion
 
 We learned arithmetic, comparison, logical, bitwise, and compound assignment operators in Rust. 
