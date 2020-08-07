@@ -1,5 +1,8 @@
 > This article was first published at [Medium](https://towardsdatascience.com/a-comprehensive-tutorial-to-rust-operators-for-beginners-11554b2c64d4)
 
+Follow me:
+- [@shinokada](https://twitter.com/shinokada)
+- [Medium](https://medium.com/@shinichiokada)
 
 # Arithmetic Operators
 
@@ -112,11 +115,3 @@ fn main() {
     println!("-5_f32 / 2_f32 is {}", (-5_f32 / 2_f32).floor());
 }
 ```
-
----
-
-Follow me:
-- [@shinokada](https://twitter.com/shinokada)
-- [Medium](https://medium.com/@shinichiokada)
-
----
